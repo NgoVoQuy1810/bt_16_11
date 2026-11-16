@@ -1,0 +1,10 @@
+package com.example.bt_16_11.model
+
+data class Student(
+    val id: String,
+    val mssv: String,
+    val name: String,
+    val gpa: Double,
+    val major: String,
+    val avatarColor: Int
+)
